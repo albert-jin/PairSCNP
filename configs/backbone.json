@@ -1,0 +1,6 @@
+{
+  "architecture": "DeepLabv3+ R103-OS16",
+  "url": "https://dl.fbaipublicfiles.com/detectron2/DeepLab/R-103.pkl",
+  "sha256": "791b39dfe8d793e46c4825997a914e2d11f14c4f6876362a923f78de2314f07f",
+  "bytes": 179175366
+}

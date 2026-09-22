@@ -1,0 +1,11 @@
+{
+  "official": "https://github.com/fyangneil/pavement-crack-detection",
+  "mirror": "https://www.kaggle.com/datasets/pauldavid22/crack50020220509t090436z001",
+  "mirror_version": 1,
+  "splits": {
+    "train": 243,
+    "val": 49,
+    "test": 200
+  },
+  "selection": "Use manifest.json IDs and original image/mask SHA256 hashes."
+}

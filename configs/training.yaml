@@ -1,0 +1,16 @@
+# Recorded defaults used by scripts/train.py; this file documents the recipe.
+steps: 12000
+batch_size: 2
+gradient_accumulation: 2
+seed: 0
+optimizer: AdamW
+learning_rate: 0.001
+weight_decay: 0.1
+betas: [0.9, 0.999]
+scheduler: cosine_to_zero
+gradient_clip_norm: 12
+precision: bfloat16
+validation_interval: 1200
+selection: maximum_validation_mean_dice
+consistency_weight_max: 0.5
+consistency_warmup_fraction: 0.2
